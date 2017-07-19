@@ -15,7 +15,6 @@
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/app_new.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -24,7 +23,7 @@
     <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
-	      <div class="navbar-header">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -44,19 +43,18 @@
             <button type="submit" class="btn btn-success">Sign in</button>
           </form>
         </div> <!-- nagigation bar collapse end-->
-      </div> <!--  main Container End-->
+      </div> <!--  main Container End -->
     </nav>
-<!--Main Project banner Container -->
+<!--Main Project banner Container --> 
     <div class="container">
-	    <div class="span4"><h2><p class="text-center">Dear active users please stay tuned for exciting competition.......</h2></div>              
-         <img src="img/Stay_Tuned.jpg" class="img-rounded center-block" alt="Stay Tuned" width="404" height="336"> 
-<!-- <div data-reactroot="" class="competition">
+    <link rel="stylesheet" href="css/app_new.css">
+      <div data-reactroot="" class="competition">
     <div class="competition-header__container">
       <div class="pageheader">
          <div class="pageheader__container competition-header">
             <div class="competition-header__top">
                <div class="competition-header__top-image">
-               <img src="img/header_background_skinny2.jpg"> 
+               <img src="img/banner1.jpg"> 
                </div>
                <div class="pageheader__top--safe">
                   <div class="competition-header__classification">
@@ -83,19 +81,21 @@
             </div>
          </div>
       </div>
- <!-- page header navigation bar container
+ <!-- page header navigation bar container -->
    <div>
        <div class="pageheader__sticky pageheader__sticky--scrolling">
           <div class="competition-header__nav-wrapper">
                <nav class="pageheader__nav pageheader__nav--competition">
                   <div class="pageheader__nav-wrapper">
-                      <a href="/overview" title="overview" class="pageheader__left-links pageheader__left-links--with-onclick" data-link-text="Overview" id=" pageheader-nav-item--overview">Overview</a>
-                      <a href="/data" title="data" class="pageheader__left-links pageheader__left-links--with-onclick" data-link-text="Data" id="pageheader-nav-item--data">Data</a>
-                      <a href="/leaderboard" title="leaderboard" class="pageheader__left-links pageheader__left-links--with-onclick pageheader__left-links--selected" data-link-text="Leaderboard" id="pageheader-nav-item--leaderboard">Leaderboard</a>
-                      <a href="/rules" title="rules" class="pageheader__left-links pageheader__left-links--with-onclick" data-link-text="Rules" id="pageheader-nav-item--rules">Rules</a>
+                      <a href="Project00_OV.html#" title="overview"><label class="btn btn-default btn-file">Overview</label></a>&nbsp;&nbsp
+                      <a href="Project00_Data.html" title="data"><label class="btn btn-default btn-file">Data</label></a>&nbsp;&nbsp
+                      <a href="#" title="leaderboard"><label class="btn btn-default btn-file">Leaderboard</label></a>&nbsp;&nbsp
                   <div class="pageheader__right-links-wrapper">
                 </nav>
-                 <a class="pageheader__calltoaction">Submit Predictions</a>
+                 <a class="pageheader__calltoaction"> 
+				    <label class="btn btn-default btn-file">Submit Predictions<input type="file" style="display: none;">
+					</label>
+			     </a>
           </div>
        </div>
     <div class="pageheader__transition"></div>
@@ -106,7 +106,7 @@
          <div>
             <div class="content-box__title-bar">
                <div class="content-box__title"> 
-               <span>Leaderboard</span>
+                <span>Leaderboard</span>
             </div>
             </div>
       </div>
@@ -115,7 +115,38 @@
         </div>
         </div>
 <!-- Table Data -->
-
+<table class="leaderboard_table table-striped">
+  <tr class="leaderboard_th">
+    <th class="leaderboard_th" title="Rank">Rank</th>
+	<th class="leaderboard_th" title="Name">Name</th>
+	<th class="leaderboard_th" title="Score">Score</th>
+	<th class="leaderboard_th" title="Entries">Entries</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Ranga</td>
+    <td>0.99</td>
+	<td>9</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vidya</td>
+    <td>0.94</td>
+	<td>2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Ravi</td>
+    <td>0.922</td>
+	<td>5</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Remo</td>
+    <td>0.921</td>
+	<td>6</td>
+</tr>
+</table>
 
 
       </div>

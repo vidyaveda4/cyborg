@@ -484,6 +484,7 @@
 .leaderboard_table {
     border-collapse: collapse;
     width: 100%;
+	border : 1
 }
 
 .leaderboard_th, .leaderboard_td {
